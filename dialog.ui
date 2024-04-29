@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_yes">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #4CAF50;  /* Задаем цвет фона */
+    font: 11pt &quot;Segoe UI&quot;;
+    color: white;  /* Задаем цвет текста */
+    border: 1px solid rgb(154, 255, 143);  /* Задаем толщину и цвет границы */
+    border-radius: 7px;  /* Закругляем углы */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Добавляем тень */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;  /* Добавляем плавные переходы */
+}
+
+QPushButton:hover {
+    background-color: #45a049;  /* Цвет фона при наведении */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);  /* Увеличиваем тень при наведении */
+    transform: translateY(-2px);  /* Поднимаем кнопку на 2 пикселя */
+}
+
+QPushButton:pressed {
+    background-color: #39803d;  /* Цвет фона при нажатии */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  /* Уменьшаем тень при нажатии */
+    transform: translateY(2px);  /* Поднимаем кнопку на 2 пикселя при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>ДА</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_no">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>120</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: red;  /* Задаем цвет фона */
+    font: 11pt &quot;Segoe UI&quot;;
+    color: white;  /* Задаем цвет текста */
+    border: 1px solid rgb(154, 255, 143);  /* Задаем толщину и цвет границы */
+    border-radius: 7px;  /* Закругляем углы */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Добавляем тень */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;  /* Добавляем плавные переходы */
+}
+
+QPushButton:hover {
+    background-color: #45a049;  /* Цвет фона при наведении */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);  /* Увеличиваем тень при наведении */
+    transform: translateY(-2px);  /* Поднимаем кнопку на 2 пикселя */
+}
+
+QPushButton:pressed {
+    background-color: #39803d;  /* Цвет фона при нажатии */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  /* Уменьшаем тень при нажатии */
+    transform: translateY(2px);  /* Поднимаем кнопку на 2 пикселя при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>НЕТ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_xml">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>112</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>XML</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_json">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>112</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>JSON</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
