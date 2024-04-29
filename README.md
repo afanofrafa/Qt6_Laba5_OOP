@@ -1,0 +1,1 @@
+# Qt6_Laba5_OOP
